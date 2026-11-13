@@ -1,11 +1,12 @@
 {
   "name": "CANopenNode",
+  "version": "4.1.0-esphome.1",
   "description": "CANopen protocol stack, with the ESPHome target header (CO_driver_target.h). The application provides the CAN driver functions.",
   "keywords": "canopen, can",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CANopenNode/CANopenNode.git"
+    "url": "https://github.com/esphome-libs/CANopenNode"
   },
   "frameworks": "*",
   "platforms": "*",

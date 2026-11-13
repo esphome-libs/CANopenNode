@@ -1,0 +1,22 @@
+description: "CANopen protocol stack (CANopenNode), with the ESPHome target header (CO_driver_target.h). The application provides the CAN driver functions."
+url: "https://github.com/esphome-libs/CANopenNode"
+repository: "https://github.com/esphome-libs/CANopenNode.git"
+license: "Apache-2.0"
+files:
+  exclude:
+    - "**/*"
+  include:
+    - CANopen.c
+    - CANopen.h
+    - CO_driver_target.h
+    - "301/**/*"
+    - "303/**/*"
+    - "304/**/*"
+    - "305/**/*"
+    - "309/**/*"
+    - "extra/**/*"
+    - storage/CO_storage.c
+    - storage/CO_storage.h
+    - LICENSE
+    - README.md
+    - CMakeLists.txt
