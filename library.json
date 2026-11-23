@@ -1,6 +1,6 @@
 {
   "name": "CANopenNode",
-  "version": "4.1.0-esphome.1",
+  "version": "4.1.0-esphome.2",
   "description": "CANopen protocol stack, with the ESPHome target header (CO_driver_target.h). The application provides the CAN driver functions.",
   "keywords": "canopen, can",
   "license": "Apache-2.0",
@@ -22,6 +22,24 @@
       "+<309/*.c>",
       "+<extra/*.c>",
       "+<storage/CO_storage.c>"
+    ]
+  },
+  "export": {
+    "include": [
+      "CANopen.c",
+      "CANopen.h",
+      "CO_driver_target.h",
+      "301",
+      "303",
+      "304",
+      "305",
+      "309",
+      "extra",
+      "storage/CO_storage.c",
+      "storage/CO_storage.h",
+      "LICENSE",
+      "README.md",
+      "library.json"
     ]
   }
 }
